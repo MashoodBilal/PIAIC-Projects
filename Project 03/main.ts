@@ -1,0 +1,3 @@
+const Firstname = "Kounain Al Ibad"
+
+console.log(Firstname)
