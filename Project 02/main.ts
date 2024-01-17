@@ -5,10 +5,16 @@ let b : number = 14;
 let c : boolean = false;
 
 //type inference
-let e = "Jeddah";
-let f = 20.8;
-f = 36;
-let g = true;
-g = true;
+interface myType {
+    country: string;
+    age: number;
+    isAlive?: boolean;
+  }
+  
+  let myInfo : myType {
+    country = "Pakistan",
+    age = "22",
+    isAlive = true
+  }
 
-console.log
+// console.log
